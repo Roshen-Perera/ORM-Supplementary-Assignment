@@ -1,5 +1,7 @@
 ORM-Suppliementary-Assignment
 
+*Create a database named library_hibernate and put the database name to the connection url in the hibernate.cfg.xml file.
+
 1)  Query query = session.createQuery("from Book where year(publicationYear)  >= :year");
     query.setParameter("year", 2010);
     List<Book> books = query.list();
